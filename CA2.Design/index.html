@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/mystyle.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+       
+		<title>CA2</title>
+	</head>
+	<body>
+		
+<!--        Bootstrap Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Incredible Instruments</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Guitars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bass</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Drums</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+               <button class="btn button_background my-2 my-sm-0 margin" type="submit">Log In</button>
+              <button class="btn button_background my-2 my-sm-0 margin" type="submit">Register</button>
+            </form>
+          </div>
+        </nav>
+
+        <main class="breathe">
+<!--        Home header-->
+         <div class="featured">
+				<div class="featured__item__large" style="background-image: url('images/popular.jpg')" >
+					 <div class="featured__item__text"><div>Most Popular</div>
+                        </div>
+				</div>
+                <div class="featured__item" style="background-image: url('images/guitar.jpg')" >
+                       <div class="featured__item__text"><div>Guitars</div>
+                    </div>
+                </div>
+                <div class="featured__item" style="background-image: url('images/bass.jpg')">
+                        <div class="featured__item__text"><div>Bass</div>
+                    </div>
+                </div>
+                <div class="featured__item" style="background-image: url('images/drums.jpg')">
+                       <div class="featured__item__text"><div>Drums</div>
+                    </div>
+                </div>
+		
+        </div>
+            
+<!--            Products Title-->
+            <div class="related">Featured Products:</div>
+            
+<!--    Product Cards-->
+        <div class="products">
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product1.jpg')"></div>
+                    <div class="product__card__brand">Ibanez</div>
+                    <div class="product__card__model">RGA61AL-IAF</div>
+                    <div class="product__card__price">€1,159</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product2.jpg')"></div>
+                    <div class="product__card__brand">Gibson</div>
+                    <div class="product__card__model">Les Paul Studio SB</div>
+                    <div class="product__card__price">€1,390</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product3.jpg')"></div>
+                    <div class="product__card__brand">Jackson</div>
+                    <div class="product__card__model">Pro Soloist SL3Q Blonde</div>
+                    <div class="product__card__price">€1,090</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product4.jpg')"></div>
+                    <div class="product__card__brand">Strandberg</div>
+                    <div class="product__card__model">Boden Standard 7 Flame Blue</div>
+                    <div class="product__card__price">€1,799</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product5.jpg')"></div>
+                    <div class="product__card__brand">DW PDP</div>
+                    <div class="product__card__model">CM5 Std. Cherry Shell Kit</div>
+                    <div class="product__card__price">€815</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product6.jpg')"></div>
+                    <div class="product__card__brand">Pearl</div>
+                    <div class="product__card__model">EXX725BR/C Export Jet Black</div>
+                    <div class="product__card__price">€769</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+             <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product1.jpg')"></div>
+                    <div class="product__card__brand">Ibanez</div>
+                    <div class="product__card__model">RGA61AL-IAF</div>
+                    <div class="product__card__price">€1,159</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product2.jpg')"></div>
+                    <div class="product__card__brand">Gibson</div>
+                    <div class="product__card__model">Les Paul Studio SB</div>
+                    <div class="product__card__price">€1,390</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product3.jpg')"></div>
+                    <div class="product__card__brand">Jackson</div>
+                    <div class="product__card__model">Pro Soloist SL3Q Blonde</div>
+                    <div class="product__card__price">€1,090</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product4.jpg')"></div>
+                    <div class="product__card__brand">Strandberg</div>
+                    <div class="product__card__model">Boden Standard 7 Flame Blue</div>
+                    <div class="product__card__price">€1,799</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product5.jpg')"></div>
+                    <div class="product__card__brand">DW PDP</div>
+                    <div class="product__card__model">CM5 Std. Cherry Shell Kit</div>
+                    <div class="product__card__price">€815</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+            <div class="product__card">
+                <div class="product__card__image" style="background-image: url('images/products/product6.jpg')"></div>
+                    <div class="product__card__brand">Pearl</div>
+                    <div class="product__card__model">EXX725BR/C Export Jet Black</div>
+                    <div class="product__card__price">€769</div>
+                    <div class="product__card__button"><button>View Item</button></div>
+            </div>
+        </div>
+        
+		</main>
+        
+        
+        <footer class="footer">
+            <div class="footer__brand">
+                  <p>©Incredible Instruments</p>
+            </div>
+        </footer>
+        
+	</body>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</html>
